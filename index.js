@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-static-lookup'
+  name: 'ember-static-app'
 };

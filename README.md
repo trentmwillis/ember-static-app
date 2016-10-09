@@ -1,11 +1,23 @@
-# Ember-static-lookup
+# Ember Static App
 
-This README outlines the details of collaborating on this Ember addon.
+This addon is an experiment to enforce static resolution of an Ember application via ES `import` statements.
+
+## "Static" Vs. Normal Ember Applications
+
+1. Components
+  - **S:** must _explicitly_ import all components used
+  - **N:** can _implicitly_ use any available components found by the Resolver
+
+2. Helpers
+  - _TODO_
+
+3. Injections
+  - _TODO_
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd ember-static-lookup`
+* `cd ember-static-app`
 * `npm install`
 * `bower install`
 
